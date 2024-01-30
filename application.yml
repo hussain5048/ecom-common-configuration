@@ -1,18 +1,20 @@
 eureka:
   client:
     service-url:
-      defaultZone: http://localhost:8761/eureka/
+      defaultZone : http://localhost:8761/eureka/
 
 
-microservices:
+microservice:
   payment-service:
     endpoints:
       fetchPaymentById:
         uri: http://PAYMENT-SERVICE/payments/
   user-service:
     endpoints:
-      fetchPaymentById:
-        uri: http://USER-SERVICE/user/
-
+      fetchUserById:
+        uri: http://USER-SERVICE/users/   
+        
 test:
-  input:1
+  input: 500000    
+
+   
