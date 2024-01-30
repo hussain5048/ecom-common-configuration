@@ -13,3 +13,6 @@ microservices:
     endpoints:
       fetchPaymentById:
         uri: http://USER-SERVICE/user/
+
+test:
+  input:1
