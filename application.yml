@@ -15,6 +15,6 @@ microservice:
         uri: http://USER-SERVICE/users/   
         
 test:
-  input: 600000    
+  input: 300000    
 
    
